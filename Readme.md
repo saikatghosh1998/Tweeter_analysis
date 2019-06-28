@@ -7,4 +7,4 @@
 ![ Front Page](f.PNG)
 
 ## Tweet page
-![Tweet page](t.png)
+![Tweet page](t.PNG)
