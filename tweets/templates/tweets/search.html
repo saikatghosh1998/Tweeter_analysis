@@ -1,0 +1,42 @@
+{% extends 'tweets/base.html' %}
+{% load static%}
+ 
+        {% block content %}
+       <div></div>
+
+    
+       <img src="{% static "/tweets/images/plot.png" %}"  style="width:30%;height:30%;" class="center">
+
+        
+        <div class="container con">
+            <div></div>
+            <h2>Positive</h2>
+            {% for d in positive %}
+         <ul>
+           <li> {{d}}}</li>
+         </ul>
+         {% endfor %}
+        </div>
+
+
+        <div class="container con">
+          <div></div>
+         <h2>Negative</h2>
+            {% for n in negative %}
+         <ul>
+           <li> {{n}}}</li>
+         </ul>
+         {% endfor %}
+        </div>
+
+        <div class="container con">
+          <div></div>
+         <h2>Neutral</h2>
+         {% for nu in neutral %}
+      <ul>
+        <li> {{nu}}}</li>
+      </ul>
+      {% endfor %}
+      </div>
+
+        {% endblock content %}
