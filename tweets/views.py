@@ -49,7 +49,7 @@ def search(request):
     shadow=True, startangle=90)
     ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
     #saving the pie chart as a png image.
-    plt.savefig('plot.png', bbox_inches='tight')
+    plt.savefig('/static/images/plot.png', bbox_inches='tight')
 
     #passing the data to html page
     context = {'positive': positive, 'negative':negative, 'neutral':neutral}
