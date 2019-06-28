@@ -4,7 +4,7 @@
 
 
 ## Front Page
-![ Front Page](f.png)
+![ Front Page](f.PNG)
 
 ## Tweet page
 ![Tweet page](t.png)
