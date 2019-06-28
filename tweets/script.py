@@ -7,7 +7,6 @@ access_token=''
 access_token_secret=''
 auth = tweepy.OAuthHandler(consumer_key,consumer_secret)
 auth.set_access_token(access_token_secret,access_token)
-#auth.set_access_token(778211905005424641-wTKTYmNrbcjMCodaSiOyRTsMUV6hx7N,3Jpa4KRb4gyBOx65dApj9Q0fg5vzWWfXqDVgl7QjpZi8K)
 
 api = tweepy.API(auth)
 positive=[]
